@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* LOGIN */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* HEADER */
+header {
+    background: #ff5722;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* BANNER */
+.banner {
+    background: url("https://images.unsplash.com/photo-1550547660-d9450f859349") center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* PRODUK */
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.produk {
+    background: white;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.produk img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.produk span {
+    font-weight: bold;
+    color: #e91e63;
+}
+
+.produk button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
